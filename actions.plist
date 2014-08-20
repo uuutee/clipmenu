@@ -5,6 +5,21 @@
 	<dict>
 		<key>action</key>
 		<dict>
+			<key>path</key>
+			<string>/Users/uno/Library/Application Support/ClipMenu/script/action/pasteAsHtml.js</string>
+			<key>type</key>
+			<string>js</string>
+		</dict>
+		<key>children</key>
+		<array/>
+		<key>isLeaf</key>
+		<true/>
+		<key>nodeTitle</key>
+		<string>pasteAsHtml</string>
+	</dict>
+	<dict>
+		<key>action</key>
+		<dict>
 			<key>name</key>
 			<string>pasteAsPlainText:</string>
 			<key>type</key>
@@ -16,6 +31,51 @@
 		<true/>
 		<key>nodeTitle</key>
 		<string>プレーンテキストとしてペースト</string>
+	</dict>
+	<dict>
+		<key>action</key>
+		<dict>
+			<key>name</key>
+			<string>remove:</string>
+			<key>type</key>
+			<string>builtin</string>
+		</dict>
+		<key>children</key>
+		<array/>
+		<key>isLeaf</key>
+		<true/>
+		<key>nodeTitle</key>
+		<string>削除</string>
+	</dict>
+	<dict>
+		<key>action</key>
+		<dict>
+			<key>path</key>
+			<string>/Applications/ClipMenu.app/Contents/Resources/script/action/HTML/Escape HTML characters.js</string>
+			<key>type</key>
+			<string>js</string>
+		</dict>
+		<key>children</key>
+		<array/>
+		<key>isLeaf</key>
+		<true/>
+		<key>nodeTitle</key>
+		<string>HTML文字実体参照にエスケープ</string>
+	</dict>
+	<dict>
+		<key>action</key>
+		<dict>
+			<key>path</key>
+			<string>/Applications/ClipMenu.app/Contents/Resources/script/action/HTML/Convert Markdown to HTML.js</string>
+			<key>type</key>
+			<string>js</string>
+		</dict>
+		<key>children</key>
+		<array/>
+		<key>isLeaf</key>
+		<true/>
+		<key>nodeTitle</key>
+		<string>Markdown → HTML</string>
 	</dict>
 	<dict>
 		<key>children</key>
@@ -139,21 +199,6 @@
 		<false/>
 		<key>nodeTitle</key>
 		<string>Trim</string>
-	</dict>
-	<dict>
-		<key>action</key>
-		<dict>
-			<key>name</key>
-			<string>remove:</string>
-			<key>type</key>
-			<string>builtin</string>
-		</dict>
-		<key>children</key>
-		<array/>
-		<key>isLeaf</key>
-		<true/>
-		<key>nodeTitle</key>
-		<string>削除</string>
 	</dict>
 </array>
 </plist>
