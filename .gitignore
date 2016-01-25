@@ -1,4 +1,6 @@
 .DS_Store
-.dat00*
+.dat0*
+actions.plist
 clips.data
+Snippets.xml
 

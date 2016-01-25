@@ -5,12 +5,12 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>D3B02636-C9A3-48D2-B7B6-4A29FFC6F144</UUID>
-        <nextObjectID>142</nextObjectID>
+        <nextObjectID>145</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
                     <key>NSPersistenceFrameworkVersion</key>
-                    <integer>481</integer>
+                    <integer>640</integer>
                     <key>NSStoreModelVersionHashes</key>
                     <dict>
                         <key>Folder</key>
@@ -32,22 +32,22 @@
     </databaseInfo>
     <object type="FOLDER" id="z102">
         <attribute name="title" type="string">untitled folder</attribute>
-        <attribute name="index" type="int16">0</attribute>
+        <attribute name="index" type="int16">2</attribute>
         <attribute name="enabled" type="bool">1</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z141 z142 z139 z140 z103"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z141 z103 z145 z140 z139 z142"></relationship>
     </object>
     <object type="SNIPPET" id="z103">
         <attribute name="title" type="string">kK4xO9mCp7Pv</attribute>
-        <attribute name="index" type="int16">0</attribute>
+        <attribute name="index" type="int16">1</attribute>
         <attribute name="enabled" type="bool">1</attribute>
         <attribute name="content" type="string">kK4xO9mCp7Pv</attribute>
         <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
     </object>
     <object type="FOLDER" id="z104">
         <attribute name="title" type="string">common</attribute>
-        <attribute name="index" type="int16">1</attribute>
+        <attribute name="index" type="int16">0</attribute>
         <attribute name="enabled" type="bool">1</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z132 z124 z122 z138 z137 z127 z105 z134 z128 z110 z112 z121"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z112 z105 z134 z110 z137 z132 z122 z121 z124 z138 z144 z127"></relationship>
     </object>
     <object type="SNIPPET" id="z105">
         <attribute name="title" type="string">\u3c00a href="(.+)?" class="ro-\\w{4,7}"\u3e00\u3c00img src="/images/default/gnav0\\d.\\w{1,3}" alt="(.+)" /\u3e00\u3c00/a\u3e00</attribute>
@@ -55,75 +55,6 @@
         <attribute name="enabled" type="bool">1</attribute>
         <attribute name="content" type="string">\u3c00a href="(.+)?" class="ro-\\w{4,7}"\u3e00\u3c00img src="/images/default/gnav0\\d.\\w{1,3}" alt="(.+)" /\u3e00\u3c00/a\u3e00</attribute>
         <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
-    </object>
-    <object type="SNIPPET" id="z109">
-        <attribute name="title" type="string">\u3c00div class="newblog"\u3e00
-</attribute>
-        <attribute name="index" type="int16">0</attribute>
-        <attribute name="enabled" type="bool">1</attribute>
-        <attribute name="content" type="string">\u3c00div class="newblog"\u3e00
-		\u3c00h2\u3e00\u3c00a href="/blog/" class="ro-fade"\u3e00\u3c00img src="/images/default/newblog-title.jpg" alt="新着ブログ" /\u3e00\u3c00/a\u3e00\u3c00/h2\u3e00
-		\u3c00div class="newblog-inner"\u3e00
-			\u3c00MTEntries include_blogs="3" lastn="3"\u3e00
-				\u3c00div class="newblog-once"\u3e00
-					\u3c00div class="newblog-once-inner clearfix"\u3e00
-						\u3c00MTSetVarBlock name="img"\u3e00\u3c00MTEntryAssets type="image"\u3e00entryimg\u3c00/MTEntryAssets\u3e00\u3c00/MTSetVarBlock\u3e00
-						\u3c00MTIf name="img" like="entryimg"\u3e00
-							\u3c00MTEntryAssets type="image" lastn="1"\u3e00
-								\u3c00div class="newblog-once-img"\u3e00
-									\u3c00a href="\u3c00MTEntryPermalink\u3e00" class="ro-fade"\u3e00\u3c00img src="\u3c00MTAssetThumbnailURL width="100" square="1"\u3e00" alt="\u3c00MTEntryTitle\u3e00の画像" /\u3e00\u3c00/a\u3e00
-								\u3c00/div\u3e00
-							\u3c00/MTEntryAssets\u3e00
-						\u3c00/MTIf\u3e00
-						\u3c00div class="newblog-once-title"\u3e00\u3c00span class="date"\u3e00\u3c00MTEntryDate format="%Y.%m.%d"\u3e00\u3c00/span\u3e00\u3c00a href="\u3c00MTEntryPermalink\u3e00"\u3e00\u3c00MTEntryTitle\u3e00\u3c00/a\u3e00\u3c00/div\u3e00
-						\u3c00div class="newblog-once-txt"\u3e00\u3c00MTEntryBody convert_breaks="0" words="200"\u3e00\u3c00/div\u3e00
-						\u3c00div class="newblog-more"\u3e00\u3c00a href="\u3c00MTEntryPermalink\u3e00" class="ro-fade"\u3e00\u3c00img src="/images/default/newblog-more.jpg" alt="詳細を見る" /\u3e00\u3c00/a\u3e00\u3c00/div\u3e00
-					\u3c00/div\u3e00
-				\u3c00/div\u3e00
-			\u3c00/MTEntries\u3e00
-		\u3c00/div\u3e00
-	\u3c00/div\u3e00
-
-
-
-.newblog{
-	margin: 0 0 15px 0;
-}
-.newblog h2{
-	margin: 0 0 10px 0;
-}
-.newblog-once{
-	padding: 0 0 10px 0;
-	margin: 0 0 10px 0;
-	border-bottom: #999 1px dotted;
-}
-.newblog-once-inner{
-}
-.newblog-once-img{
-	float: left;
-	display: inline;
-	margin: 0 10px 0 0;
-}
-.newblog-once-title{
-	margin: 0 0 5px 0;
-	font-size: 93%;
-}
-.newblog-once-title span.date{
-	margin: 0 10px 0 0;
-	/* 背景がなかったら消す */
-	padding: 0 0 0 15px;
-	background: url(/images/default/newblog-btn-bg.jpg) no-repeat 0 50%;
-}
-.newblog-once-title a{
-}
-.newblog-once-txt{
-	font-size: 93%;
-}
-.newblog-more{
-	margin: 10px 0 0 0;
-}
-</attribute>
-        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z135"></relationship>
     </object>
     <object type="SNIPPET" id="z110">
         <attribute name="title" type="string">/contents/2012/09/post-3.php</attribute>
@@ -172,7 +103,7 @@
 .news li a, 
 .newblog li a{
 }</attribute>
-        <attribute name="index" type="int16">5</attribute>
+        <attribute name="index" type="int16">4</attribute>
         <attribute name="enabled" type="bool">1</attribute>
         <attribute name="content" type="string">.news{
 	float: left;
@@ -219,60 +150,6 @@
 	-moz-border-radius:    4px;
 	border-radius:         4px;
 \ufffe</attribute>
-        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z131"></relationship>
-    </object>
-    <object type="SNIPPET" id="z116">
-        <attribute name="title" type="string">.copyright{
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 25px;
-	line-height: 25px;
-	text-align: center;
-	font-size: 77%;
-	color: #fff;
-}</attribute>
-        <attribute name="index" type="int16">4</attribute>
-        <attribute name="enabled" type="bool">1</attribute>
-        <attribute name="content" type="string">.copyright{
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 25px;
-	line-height: 25px;
-	text-align: center;
-	font-size: 77%;
-	color: #fff;
-}</attribute>
-        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z131"></relationship>
-    </object>
-    <object type="SNIPPET" id="z117">
-        <attribute name="title" type="string">.entry-body h3{
-	clear: both;
-	margin: 1.8em 0 0.8em 0;
-	height: 36px;
-	line-height: 36px;
-	font-size: 123.1%;
-	color: #fff;
-	font-weight: bold;
-	text-indent: 15px;
-	background: url(/images/default/h3-bg.jpg) no-repeat 0 0;
-}</attribute>
-        <attribute name="index" type="int16">6</attribute>
-        <attribute name="enabled" type="bool">1</attribute>
-        <attribute name="content" type="string">.entry-body h3{
-	clear: both;
-	margin: 1.8em 0 0.8em 0;
-	height: 36px;
-	line-height: 36px;
-	font-size: 123.1%;
-	color: #fff;
-	font-weight: bold;
-	text-indent: 15px;
-	background: url(/images/default/h3-bg.jpg) no-repeat 0 0;
-}</attribute>
         <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z131"></relationship>
     </object>
     <object type="SNIPPET" id="z118">
@@ -400,17 +277,6 @@ table td{
 </attribute>
         <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
     </object>
-    <object type="SNIPPET" id="z128">
-        <attribute name="title" type="string">	echo '\u3c00pre\u3e00';
-	var_dump($value);
-	echo '\u3c00/pre\u3e00';</attribute>
-        <attribute name="index" type="int16">11</attribute>
-        <attribute name="enabled" type="bool">1</attribute>
-        <attribute name="content" type="string">	echo '\u3c00pre\u3e00';
-	var_dump($value);
-	echo '\u3c00/pre\u3e00';</attribute>
-        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
-    </object>
     <object type="SNIPPET" id="z130">
         <attribute name="title" type="string">/* x-offset, y-offset, ぼかし, 広がり, 色*/
 	-webkit-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.7);
@@ -430,9 +296,9 @@ table td{
     </object>
     <object type="FOLDER" id="z131">
         <attribute name="title" type="string">css</attribute>
-        <attribute name="index" type="int16">3</attribute>
+        <attribute name="index" type="int16">1</attribute>
         <attribute name="enabled" type="bool">1</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z120 z118 z116 z130 z115 z117 z113"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z130 z115 z113 z120 z118"></relationship>
     </object>
     <object type="SNIPPET" id="z132">
         <attribute name="title" type="string">\u3c00div class="bookmarks clearfix"\u3e00
@@ -461,12 +327,6 @@ table td{
         <attribute name="content" type="string">\u3c00MTIf tag="image01"\u3e00\u3c00MTimage01Asset\u3e00\u3c00a href="\u3c00MTAssetURL\u3e00" class="ro-fade"\u3e00\u3c00img src="\u3c00MTAssetThumbnailURL width="100"\u3e00" alt="\u3c00MTEntryTitle\u3e00の画像" /\u3e00\u3c00/a\u3e00\u3c00/MTimage01Asset\u3e00\u3c00/MTIf\u3e00</attribute>
         <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
     </object>
-    <object type="FOLDER" id="z135">
-        <attribute name="title" type="string">main</attribute>
-        <attribute name="index" type="int16">2</attribute>
-        <attribute name="enabled" type="bool">1</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z109"></relationship>
-    </object>
     <object type="SNIPPET" id="z137">
         <attribute name="title" type="string">\u3c00?php require $_SERVER['DOCUMENT_ROOT'] . '/contents/category-about.php'; ?\u3e00
 </attribute>
@@ -485,30 +345,45 @@ table td{
     </object>
     <object type="SNIPPET" id="z139">
         <attribute name="title" type="string">/alertsoff</attribute>
-        <attribute name="index" type="int16">1</attribute>
+        <attribute name="index" type="int16">2</attribute>
         <attribute name="enabled" type="bool">1</attribute>
         <attribute name="content" type="string">/alertsoff</attribute>
         <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
     </object>
     <object type="SNIPPET" id="z140">
         <attribute name="title" type="string">coffeejelly222@gmail.com</attribute>
-        <attribute name="index" type="int16">2</attribute>
+        <attribute name="index" type="int16">3</attribute>
         <attribute name="enabled" type="bool">1</attribute>
         <attribute name="content" type="string">coffeejelly222@gmail.com</attribute>
         <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
     </object>
     <object type="SNIPPET" id="z141">
         <attribute name="title" type="string">simple_is_best@live.jp</attribute>
-        <attribute name="index" type="int16">4</attribute>
+        <attribute name="index" type="int16">5</attribute>
         <attribute name="enabled" type="bool">1</attribute>
         <attribute name="content" type="string">simple_is_best@live.jp</attribute>
         <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
     </object>
     <object type="SNIPPET" id="z142">
         <attribute name="title" type="string">u_tomohiro@i.softbank.jp</attribute>
-        <attribute name="index" type="int16">3</attribute>
+        <attribute name="index" type="int16">4</attribute>
         <attribute name="enabled" type="bool">1</attribute>
         <attribute name="content" type="string">u_tomohiro@i.softbank.jp</attribute>
+        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
+    </object>
+    <object type="SNIPPET" id="z144">
+        <attribute name="title" type="string">sp:facebook</attribute>
+        <attribute name="index" type="int16">11</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <attribute name="content" type="string">		\u3c00li\u3e00\u3c00a href="/"\u3e00\u3c00img src="/images/sphone/ico-facebook.png" alt="facebook" width="64"\u3e00facebook\u3c00/a\u3e00\u3c00/li\u3e00
+</attribute>
+        <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
+    </object>
+    <object type="SNIPPET" id="z145">
+        <attribute name="title" type="string">shibuya</attribute>
+        <attribute name="index" type="int16">0</attribute>
+        <attribute name="enabled" type="bool">1</attribute>
+        <attribute name="content" type="string">6XeeZuHNBffJEc</attribute>
         <relationship name="folder" type="1/1" destination="FOLDER" idrefs="z102"></relationship>
     </object>
 </database>
